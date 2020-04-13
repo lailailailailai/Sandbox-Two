@@ -1,0 +1,88 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~/Documents/Coding-R/Sandbox/Sandbox Two[?1034hHelioss-MacBook-Pro:Sandbox Two heliosobsidian$ [KHelioss-MacBook-Pro:Sandbox Two heliosobsidian$ cd
+]0;~Helioss-MacBook-Pro:~ heliosobsidian$ l[Kls
+Applications		Public			hyperpower
+Creative Cloud Files	PycharmProjects		node_modules
+Desktop			WORKSPACE		package-lock.json
+Documents		Wine Files		protobuf
+Downloads		anaconda3		repository
+Dropbox			bazel-bin		solarized
+Google Drive		bazel-genfiles		src
+Library			bazel-heliosobsidian	xcode
+Movies			bazel-out		xcode-themes
+Music			bazel-testlogs		yarn.lock
+Pictures		data
+]0;~Helioss-MacBook-Pro:~ heliosobsidian$ cd documents/c[KCoding-R
+]0;~/documents/Coding-RHelioss-MacBook-Pro:Coding-R heliosobsidian$ ls
+Sandbox
+]0;~/documents/Coding-RHelioss-MacBook-Pro:Coding-R heliosobsidian$ cd Sandbox
+]0;~/documents/Coding-R/SandboxHelioss-MacBook-Pro:Sandbox heliosobsidian$ ls
+R-studio sandbox	Sandbox Two		learningR
+]0;~/documents/Coding-R/SandboxHelioss-MacBook-Pro:Sandbox heliosobsidian$ cd Sandbox\![K~ Two
+bash: cd: Sandbox~: No such file or directory
+]0;~/documents/Coding-R/SandboxHelioss-MacBook-Pro:Sandbox heliosobsidian$ cd Sandbox\~ Twols[Kcd Sandboxls[Kcd Sandbox\~ Two[1P Two
+]0;~/documents/Coding-R/Sandbox/Sandbox TwoHelioss-MacBook-Pro:Sandbox Two heliosobsidian$ ls
+Sandbox Two.Rproj
+]0;~/documents/Coding-R/Sandbox/Sandbox TwoHelioss-MacBook-Pro:Sandbox Two heliosobsidian$ [KHelioss-MacBook-Pro:Sandbox Two heliosobsidian$ git init
+Initialized empty Git repository in /Users/heliosobsidian/Documents/Coding-R/Sandbox/Sandbox Two/.git/
+]0;~/documents/Coding-R/Sandbox/Sandbox TwoHelioss-MacBook-Pro:Sandbox Two heliosobsidian$ git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+]0;~/documents/Coding-R/Sandbox/Sandbox TwoHelioss-MacBook-Pro:Sandbox Two heliosobsidian$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.Rproj.user/[m
+	[31mSandbox Two.Rproj[m
+
+nothing added to commit but untracked files present
+]0;~/documents/Coding-R/Sandbox/Sandbox TwoHelioss-MacBook-Pro:Sandbox Two heliosobsidian$ git add .
